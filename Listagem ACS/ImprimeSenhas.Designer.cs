@@ -42,15 +42,16 @@
             this.crystalReportViewer1.Name = "crystalReportViewer1";
             this.crystalReportViewer1.ReportSource = this.Relatorio_Senhas1;
             this.crystalReportViewer1.ShowCloseButton = false;
+            this.crystalReportViewer1.ShowCopyButton = false;
             this.crystalReportViewer1.ShowExportButton = false;
             this.crystalReportViewer1.ShowGotoPageButton = false;
             this.crystalReportViewer1.ShowGroupTreeButton = false;
             this.crystalReportViewer1.ShowParameterPanelButton = false;
+            this.crystalReportViewer1.ShowTextSearchButton = false;
             this.crystalReportViewer1.Size = new System.Drawing.Size(545, 464);
             this.crystalReportViewer1.TabIndex = 0;
             this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             this.crystalReportViewer1.Zoom(45);
-            
             // 
             // ImprimeSenhas
             // 
