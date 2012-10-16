@@ -14,7 +14,8 @@ namespace Listagem_ACS
         public ImprimeSenhas()
         {
             InitializeComponent();
-            MessageBox.Show("Nas propriedades de impressão\nselecione 16 páginas por folha!");            
+            MessageBox.Show("Nas propriedades de impressão\nselecione 16 páginas por folha!");
+            crystalReportViewer1.Zoom(45); // aplica zoom da página em 45 %
         }
     }
 }
