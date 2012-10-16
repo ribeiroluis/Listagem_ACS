@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<movimento>
+  <usuario>
+    <item>1</item>
+    <data>12/09/2012</data>
+    <hora>9:00</hora>
+    <prontuario>4566</prontuario>
+    <nome>Luis Henrique Ribeiro</nome>
+    <medico>Dra. Jackelyne</medico>
+  </usuario>  
+</movimento> 
