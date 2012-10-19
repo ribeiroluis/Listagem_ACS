@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using FirebirdSql.Data;
 
 namespace Listagem_ACS
 {
@@ -15,8 +16,8 @@ namespace Listagem_ACS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaInicial());
-            //testando o clone e o commit
+            //Application.Run(new TelaInicial());
+            Application.Run(new Conexao_Banco());
         }
     }
 }
