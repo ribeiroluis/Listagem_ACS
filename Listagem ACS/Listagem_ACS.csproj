@@ -149,6 +149,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TesteGitHub.cs" />
     <EmbeddedResource Include="Conexao_Banco.resx">
       <DependentUpon>Conexao_Banco.cs</DependentUpon>
     </EmbeddedResource>
