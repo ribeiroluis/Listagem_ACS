@@ -106,6 +106,7 @@
             this.tx_prontuario.Name = "tx_prontuario";
             this.tx_prontuario.Size = new System.Drawing.Size(78, 23);
             this.tx_prontuario.TabIndex = 6;
+            this.tx_prontuario.TextChanged += new System.EventHandler(this.tx_prontuario_TextChanged);
             // 
             // tx_nome
             // 

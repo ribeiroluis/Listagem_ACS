@@ -166,5 +166,19 @@ namespace Listagem_ACS
                 this.Close();
             }
         }
+
+        private void tx_prontuario_TextChanged(object sender, EventArgs e)
+        {
+            /*Conexao_Banco conecta = new Conexao_Banco(tx_prontuario.Text);
+
+            if (tx_prontuario.Text == "")
+            {
+                tx_nome.Text = "";
+ 
+            }
+            else
+                tx_nome.Text = conecta.Consulta();
+            */
+        }
     }
 }

@@ -28,22 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_consultar = new System.Windows.Forms.Button();
             this.tx_pesquisa = new System.Windows.Forms.TextBox();
             this.btn_todos = new System.Windows.Forms.Button();
             this.dtgrd_view = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dtgrd_view)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btn_consultar
-            // 
-            this.btn_consultar.Location = new System.Drawing.Point(296, 22);
-            this.btn_consultar.Name = "btn_consultar";
-            this.btn_consultar.Size = new System.Drawing.Size(75, 23);
-            this.btn_consultar.TabIndex = 0;
-            this.btn_consultar.Text = "Consultar";
-            this.btn_consultar.UseVisualStyleBackColor = true;
-            this.btn_consultar.Click += new System.EventHandler(this.btn_consultar_Click);
             // 
             // tx_pesquisa
             // 
@@ -64,9 +53,12 @@
             // 
             // dtgrd_view
             // 
-            this.dtgrd_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgrd_view.AllowUserToAddRows = false;
+            this.dtgrd_view.AllowUserToDeleteRows = false;
+            this.dtgrd_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dtgrd_view.Location = new System.Drawing.Point(12, 61);
             this.dtgrd_view.Name = "dtgrd_view";
+            this.dtgrd_view.ReadOnly = true;
             this.dtgrd_view.Size = new System.Drawing.Size(547, 193);
             this.dtgrd_view.TabIndex = 3;
             // 
@@ -78,7 +70,6 @@
             this.Controls.Add(this.dtgrd_view);
             this.Controls.Add(this.btn_todos);
             this.Controls.Add(this.tx_pesquisa);
-            this.Controls.Add(this.btn_consultar);
             this.Name = "Conexao_Banco";
             this.Text = "Conexao_Banco";
             this.Load += new System.EventHandler(this.Conexao_Banco_Load);
@@ -90,7 +81,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btn_consultar;
         private System.Windows.Forms.TextBox tx_pesquisa;
         private System.Windows.Forms.Button btn_todos;
         private System.Windows.Forms.DataGridView dtgrd_view;
